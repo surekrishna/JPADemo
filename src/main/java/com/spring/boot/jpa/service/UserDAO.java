@@ -10,7 +10,7 @@ import com.spring.boot.jpa.entity.User;
 
 @Repository
 @Transactional
-public class UserDAOService {
+public class UserDAO {
 	
 	@PersistenceContext
 	private EntityManager entityManager;
